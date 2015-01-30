@@ -1,0 +1,12 @@
+puts "How much does it cost?"
+cost = gets.to_f
+puts "How much is the sales tax in your state?"
+tax = gets.to_f
+
+price = cost + (cost*tax)*(0.01)
+puts "You have to pay:"
+puts price
+
+
+
+

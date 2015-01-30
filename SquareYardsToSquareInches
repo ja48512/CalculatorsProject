@@ -1,0 +1,6 @@
+puts "How many square yards is the region?"
+squareyards = gets.to_f
+
+ans = (36**2)*(squareyards)
+puts "Converted to square inches, that is:"
+puts ans

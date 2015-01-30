@@ -1,0 +1,12 @@
+puts "What is the x coordinate of the first point on the line?"
+x1 = gets.to_f
+puts "What is the y coordinate of the first point on the line?"
+y1 = gets.to_f
+puts "What is the x coordinate of the second point on the line?"
+x2 = gets.to_f
+puts "What is the y coordinate of the second point on the line?"
+y2 = gets.to_f
+
+s = (y1-y2)/(x1-x2)
+puts "The slope of the line containing these two points is:"
+puts s
